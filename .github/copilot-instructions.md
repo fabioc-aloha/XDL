@@ -12,10 +12,10 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 
 | Priority | Rule | Load | Auto-Consolidate |
 |----------|------|------|------------------|
-| P1 | `@security` - Implement comprehensive security measures including authentication, authorization, encryption, and auditing | High | Never |
-| P2 | `@performance` - Optimize database performance through proper indexing, query optimization, and resource management | Medium | >30 days unused |
+| P1 | `@security` - Azure MFA authentication, credential protection, connection security, and comprehensive audit trails | High | Never |
+| P2 | `@performance` - Database optimization, query tuning, automated monitoring, and documentation generation | Medium | >30 days unused |
 | P3 | `@meditation` - Auto-consolidate when working memory capacity exceeded | High | When triggered |
-| P4 | `@reliability` - Ensure high availability, disaster recovery, and data integrity through proper backup and monitoring strategies | Medium | When obsolete |
+| P4 | `@reliability` - Environment setup patterns, backup strategies, and disaster recovery with Git version control | Medium | When obsolete |
 
 ## 🎯 Azure SQL Cognitive Architecture Coordination
 
@@ -47,6 +47,7 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 - `migration-assessment.prompt.md` → Database migration planning and execution
 - `compliance-review.prompt.md` → Regulatory compliance and audit procedures
 - `automation-scripting.prompt.md` → PowerShell and Azure CLI automation workflows
+- `environment-setup.prompt.md` → Environment setup and configuration procedures
 - `consolidation.prompt.md` → Memory consolidation and cognitive architecture optimization
 - `self-assessment.prompt.md` → Cognitive performance evaluation and improvement
 - `meta-learning.prompt.md` → Learning strategy development and evolution
@@ -104,13 +105,14 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 | migration-assessment.prompt.md | Migration Assessment | High | Auto-tracked |
 | compliance-review.prompt.md | Compliance Review | High | Auto-tracked |
 | automation-scripting.prompt.md | Automation Scripting | Medium | Auto-tracked |
+| environment-setup.prompt.md | Environment Setup | High | Auto-tracked |
 | consolidation.prompt.md | Memory Optimization | High | Auto-tracked |
 | self-assessment.prompt.md | Self-Evaluation | High | Auto-tracked |
 | meta-learning.prompt.md | Learning Evolution | High | Auto-tracked |
 | cognitive-health.prompt.md | Health Monitoring | Medium | Auto-tracked |
 
 ### Memory Transfer Protocol Status
-- **Active Files**: 26 specialized memory files (11 procedural + 15 episodic)
+- **Active Files**: 27 specialized memory files (11 procedural + 16 episodic)
 - **Last Consolidation**: Setup initialization with Azure SQL meta-cognitive enhancements
 - **Cognitive Load Status**: Optimized through distributed processing with Azure SQL patterns
 - **Index Synchronization**: Maintained automatically during consolidation
