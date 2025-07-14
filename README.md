@@ -2,6 +2,8 @@
 
 # Azure SQL Development Environment (XDL)
 
+[![Version](https://img.shields.io/badge/Version-0.0.1%20HYDROGEN-blue?style=for-the-badge&logo=atom&logoColor=white)](VERSION-HISTORY.md) 🧪
+
 🚀 **Complete Azure SQL Database development and administration environment with cognitive memory architecture**
 
 ## 📋 Overview
@@ -23,6 +25,12 @@ This repository contains a comprehensive development environment for Azure SQL D
 - **Authentication**: Azure MFA (Active Directory Interactive)
 - **Resource Group**: `CPMQualtricsResourceGroup`
 - **Subscription**: `f6ab5f6d-606a-4256-aba7-1feeeb53784f`
+
+### Version Information
+- **Current Version**: [![Version](https://img.shields.io/badge/0.0.1%20HYDROGEN-blue?style=flat&logo=atom&logoColor=white)](VERSION-HISTORY.md)
+- **Versioning Scheme**: Periodic Table Elements (X.Y.Z = Element #XYZ)
+- **Release Date**: July 14, 2025
+- **Version Notes**: Initial release with complete Azure SQL development environment
 
 ### Setup Completion
 - ✅ Directory structure (26+ specialized folders)
