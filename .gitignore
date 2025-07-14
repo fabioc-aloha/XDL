@@ -1,0 +1,76 @@
+# Sensitive Configuration
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+*.pfx
+*.p12
+connection-strings.json
+secrets.json
+
+# Azure Credentials
+.azure/
+azure-credentials.json
+service-principal.json
+
+# SQL Server Files
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.dmp
+
+# DACPAC/BACPAC Files (except templates)
+*.dacpac
+*.bacpac
+!templates/*.dacpac
+!templates/*.bacpac
+
+# PowerShell
+profile.ps1
+Microsoft.PowerShell_profile.ps1
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+bin/
+obj/
+packages/
+
+# SQL Server Management Studio
+*.ssms_suo
+*.sqlsuo
+SqlSchemaCompare*.scmp
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.tlog
+*.cache
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Test Results
+TestResults/
+coverage.xml
+*.coverage
+*.coveragexml
+
+# Documentation Build
+docs/_build/
+site/

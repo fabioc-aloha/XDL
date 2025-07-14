@@ -1,0 +1,53 @@
+{
+    "azureSqlConfig": {
+        "subscriptionId": "f6ab5f6d-606a-4256-aba7-1feeeb53784f",
+        "resourceGroupName": "CPMQualtricsResourceGroup",
+        "serverName": "cxmidl",
+        "serverFqdn": "cxmidl.database.windows.net",
+        "authenticationType": "AzureMFA",
+        "databases": [
+            {
+                "name": "Orchestration",
+                "edition": "Standard",
+                "serviceObjective": "S2",
+                "maxSizeBytes": "268435456000"
+            }
+        ],
+        "firewallRules": [
+            {
+                "name": "AllowAzureIPs",
+                "startIpAddress": "0.0.0.0",
+                "endIpAddress": "0.0.0.0"
+            }
+        ],
+        "security": {
+            "enableAudit": true,
+            "enableThreatDetection": true,
+            "enableTransparentDataEncryption": true,
+            "enableAdvancedDataSecurity": true
+        },
+        "backup": {
+            "retentionPeriod": 35,
+            "enableLongTermRetention": true,
+            "geoRedundantBackup": true
+        },
+        "monitoring": {
+            "enableMetrics": true,
+            "enableDiagnostics": true,
+            "logAnalyticsWorkspace": "your-log-analytics-workspace"
+        }
+    },
+    "connectionStrings": {
+        "development": "Server=tcp:cxmidl.database.windows.net,1433;Initial Catalog=Orchestration;Authentication=Active Directory Interactive;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "staging": "Server=tcp:cxmidl.database.windows.net,1433;Initial Catalog=Orchestration;Authentication=Active Directory Interactive;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "production": "Server=tcp:cxmidl.database.windows.net,1433;Initial Catalog=Orchestration;Authentication=Active Directory Interactive;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    },
+    "tools": {
+        "sqlcmd": "sqlcmd",
+        "bcp": "bcp",
+        "sqlpackage": "sqlpackage",
+        "dacfx": "Microsoft.SqlServer.Dac",
+        "powerShell": "pwsh",
+        "azureCli": "az"
+    }
+}
