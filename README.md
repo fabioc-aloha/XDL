@@ -1,3 +1,5 @@
+![XDL Banner](assets/banner.png)
+
 # Azure SQL Development Environment (XDL)
 
 🚀 **Complete Azure SQL Database development and administration environment with cognitive memory architecture**
