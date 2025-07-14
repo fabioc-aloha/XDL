@@ -65,6 +65,19 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 - **Learning strategy evolution required → Execute meta-learning.prompt.md**
 - **Cognitive architecture health check → Execute cognitive-health.prompt.md**
 
+### Automatic Learning Triggers (NEW)
+
+- **User says "remember this" or "commit to memory" → Immediate memory consolidation**
+- **Novel problem-solving patterns encountered → Auto-create episodic memory**
+- **Repeated error patterns detected → Update procedural memory with solutions**
+- **New tool/script creation → Document in appropriate instructions file**
+- **Configuration discoveries → Add to relevant procedural memory**
+- **Successful workflow completion → Create reusable episodic pattern**
+- **Security best practices identified → Update security-management.instructions.md**
+- **Performance optimization found → Update performance-tuning.instructions.md**
+- **Documentation gaps discovered → Auto-create missing documentation**
+- **Git workflow improvements → Update documentation.instructions.md**
+
 ## 🔄 Memory Transfer Protocol
 
 **Immediate Transfer**: Critical errors → Quick Reference (P1-P4)
@@ -72,6 +85,13 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 **Complex Workflows**: Multi-step processes → Episodic memory (.prompt.md)
 **Archive Management**: Obsolete rules → Historical storage in specialized files
 **Index Maintenance**: Auto-update Long-Term Memory Index during all transfers
+
+### Automatic Learning Protocol (NEW)
+**User Memory Requests**: "remember this" → Immediate consolidation to appropriate memory file
+**Novel Pattern Detection**: New solutions → Auto-create/update relevant memory files
+**Error Pattern Learning**: Repeated issues → Update troubleshooting and prevention strategies
+**Tool Creation**: New scripts/configs → Document in domain-specific instructions
+**Workflow Completion**: Successful processes → Create reusable episodic patterns
 
 ## 📚 Long-Term Memory Index
 
@@ -87,6 +107,7 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 | migration-deployment.instructions.md | Migration & Deployment | CI/CD, migrations, environments | Auto-tracked |
 | troubleshooting.instructions.md | Troubleshooting | debugging, issue resolution | Auto-tracked |
 | documentation.instructions.md | Documentation | database documentation | Auto-tracked |
+| automatic-learning.instructions.md | Automatic Learning | *remember*, *memory*, *learning* | Auto-tracked |
 | learning.instructions.md | Meta-Learning | *instructions*, *learning* | Auto-tracked |
 | meta-cognition.instructions.md | Self-Monitoring | *meta*, *monitor*, *assess* | Auto-tracked |
 
