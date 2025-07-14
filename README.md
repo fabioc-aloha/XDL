@@ -4,18 +4,29 @@
 
 [![Version](https://img.shields.io/badge/Version-0.0.1%20HYDROGEN-blue?style=for-the-badge&logo=atom&logoColor=white)](VERSION-HISTORY.md) 🧪
 
-🚀 **Complete Azure SQL Database development and administration environment with cognitive memory architecture**
+🚀 **Analytical layer for Azure SQL Database with cognitive memory architecture and advanced database exploration tools**
 
 ## 📋 Overview
 
-This repository contains a comprehensive development environment for Azure SQL Database operations, featuring:
+This repository provides a comprehensive **analytical layer** for Azure SQL Database operations, featuring:
 
+- **Database Analysis Tools** for exploration and performance monitoring
 - **Azure MFA Authentication** for secure database connections
-- **Cognitive Memory Architecture** for self-learning database operations
+- **Cognitive Memory Architecture** for accumulated analytical expertise
 - **PowerShell Management Scripts** for database administration
 - **VS Code Integration** with SQL Server extension
-- **Database Documentation** and diagramming tools
-- **Performance Monitoring** and optimization utilities
+- **Documentation Generation** and diagramming tools
+- **Performance Analytics** and optimization utilities
+
+## 🎯 Project Scope
+
+XDL serves as an **analytical layer** on top of your Azure SQL Database:
+- ✅ **Database Analysis & Exploration** - Tools for understanding database structure and performance
+- ✅ **Development Environment** - Professional setup for database interaction
+- ✅ **Knowledge Management** - Cognitive memory for analytical patterns and insights
+- ✅ **Performance Monitoring** - Advanced analytics for optimization opportunities
+- ❌ **Database Source Control** - Database schema remains in Azure SQL (not version controlled here)
+- ❌ **Production Deployment** - Analysis-focused, not for database modifications
 
 ## 🏗️ Environment Status
 

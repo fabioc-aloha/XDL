@@ -41,6 +41,14 @@ description: "Automatic learning and memory consolidation protocols"
 3. Include in repository structure documentation
 4. Update quick reference guides
 
+### Project Scope Learning
+**Architecture Decisions**: When project scope and purpose are clarified
+**Auto-Response**:
+1. Update project documentation with scope clarification
+2. Align tool development with defined purpose
+3. Consolidate memory to reflect project goals
+4. Update version history and planning
+
 ## Memory File Selection Logic
 
 ### Procedural Memory (Instructions Files)
