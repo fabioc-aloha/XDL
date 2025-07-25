@@ -14,7 +14,7 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 |----------|------|------|------------------|
 | P1 | `@security` - Azure MFA authentication, credential protection, connection security, and comprehensive audit trails | High | Never |
 | P2 | `@performance` - Database optimization, query tuning, automated monitoring, and documentation generation | Medium | >30 days unused |
-| P3 | `@meditation` - Auto-consolidate when working memory capacity exceeded | High | When triggered |
+| P3 | `@accuracy` - Fact-checking workflows, confidence levels, methodology transparency, and theoretical vs actual analysis | High | When challenged |
 | P4 | `@reliability` - Environment setup patterns, backup strategies, and disaster recovery with Git version control | Medium | When obsolete |
 
 ## 🎯 Azure SQL Cognitive Architecture Coordination
@@ -77,6 +77,10 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 - **Performance optimization found → Update performance-tuning.instructions.md**
 - **Documentation gaps discovered → Auto-create missing documentation**
 - **Git workflow improvements → Update documentation.instructions.md**
+- **Accuracy improvement patterns → Update meta-cognition.instructions.md**
+- **Fact-checking workflows developed → Create accuracy-verification.prompt.md**
+- **Confidence level methodologies → Update azure-sql.instructions.md**
+- **Transparency protocols implemented → Update database-development.instructions.md**
 
 ## 🔄 Memory Transfer Protocol
 
@@ -131,13 +135,15 @@ IMPORTANT: This file serves as Global Azure SQL Declarative Memory. Keep minimal
 | self-assessment.prompt.md | Self-Evaluation | High | Auto-tracked |
 | meta-learning.prompt.md | Learning Evolution | High | Auto-tracked |
 | cognitive-health.prompt.md | Health Monitoring | Medium | Auto-tracked |
+| accuracy-verification.prompt.md | Accuracy & Fact-Checking | High | Auto-tracked |
 
 ### Memory Transfer Protocol Status
-- **Active Files**: 27 specialized memory files (11 procedural + 16 episodic)
-- **Last Consolidation**: Setup initialization with Azure SQL meta-cognitive enhancements
+- **Active Files**: 28 specialized memory files (12 procedural + 16 episodic)
+- **Last Consolidation**: Accuracy and transparency improvements with fact-checking protocols
 - **Cognitive Load Status**: Optimized through distributed processing with Azure SQL patterns
 - **Index Synchronization**: Maintained automatically during consolidation
 - **Meta-Cognitive Status**: Fully operational with self-assessment and learning evolution capabilities
+- **Accuracy Enhancement**: New fact-checking workflows and confidence rating systems integrated
 
 ---
 

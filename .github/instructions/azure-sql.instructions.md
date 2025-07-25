@@ -48,6 +48,15 @@ description: "General Azure SQL database patterns and best practices"
 ## Monitoring and Maintenance
 - Set up Azure SQL Database monitoring and alerting
 - Implement automated maintenance tasks (index reorganization, statistics updates)
+
+## Dependency Analysis and Documentation
+- **Pattern-Based Analysis**: Use naming conventions and enterprise patterns to infer likely dependencies
+- **Confidence Levels**: Always include confidence ratings (High/Medium/Low) for theoretical analysis
+- **Transparency Protocols**: Clearly distinguish between actual database inspection and pattern inference
+- **Methodology Disclosure**: Document analysis approach (pattern recognition vs direct database access)
+- **Evidence Base Clarity**: Specify whether analysis is theoretical or based on actual schema introspection
+- **Accuracy Disclaimers**: Include appropriate disclaimers when analysis is not based on direct database access
+- **Fact-Checking Workflows**: Implement systematic verification of theoretical dependencies before implementation
 - Monitor DTU/vCore utilization and scaling requirements
 - Track query performance metrics and identify bottlenecks
 - Implement backup verification and restore testing procedures

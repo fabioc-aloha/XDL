@@ -39,3 +39,13 @@ description: "Database development patterns for stored procedures, functions, vi
 - Use version control for all database schema and code
 - Include unit tests for stored procedures and functions
 - Follow security principles of least privilege access
+
+## Analysis and Documentation Standards
+- **Dependency Documentation**: Create comprehensive dependency analyses with visual diagrams
+- **Confidence Rating System**: Use High/Medium/Low confidence levels for theoretical analysis
+- **Pattern Recognition**: Leverage enterprise database patterns for dependency inference
+- **Methodology Transparency**: Always disclose whether analysis is pattern-based or schema-introspective
+- **Theoretical vs Actual**: Clearly distinguish between inferred and confirmed database objects
+- **Evidence Documentation**: Specify the basis for dependency analysis (naming patterns, common practices, etc.)
+- **Accuracy Verification**: Implement fact-checking workflows before finalizing analysis documentation
+- **Visual Documentation**: Use Mermaid diagrams to illustrate complex dependency relationships
